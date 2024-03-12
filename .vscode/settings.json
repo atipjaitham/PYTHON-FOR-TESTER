@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./MyModule"
+    ],
+    "python.REPL.enableREPLSmartSend": false
+}

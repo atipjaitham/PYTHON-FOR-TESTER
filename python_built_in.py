@@ -1,0 +1,30 @@
+demo_tuple = (5,7,8,4,5,6,1)
+# max()
+x = max(demo_tuple)
+print(x)
+# min()
+x = min(demo_tuple)
+print(x)
+# iter()
+i = iter(demo_tuple)
+print(next(i))
+# reversed()
+j = reversed(demo_tuple)
+print(next(j))
+# next()
+# slice()
+x = slice(2,5)
+print(demo_tuple[x])
+# sorted()
+x = sorted(demo_tuple)
+print(x)
+# sum()
+x = sum(demo_tuple,5) # 5 in statement is when sum will plus 5
+print(x)
+# input()
+x = input("Enter:")
+print("Welcome "+x)
+
+
+
+
